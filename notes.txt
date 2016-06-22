@@ -1,3 +1,0 @@
-paste the following into terminal to generate a secret key for a cookie:
-
-echo SECRET=$(node -e "require('crypto').randomBytes(48, function(ex, buf) { console.log(buf.toString('hex')) });") >> .env
